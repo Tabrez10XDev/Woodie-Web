@@ -1,0 +1,364 @@
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .section-2 .cover {
+    background-position: -25vmin -10vmin;
+  }
+  .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+
+  .section-3 {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+  .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+  .section-3 .platform .col-md-6 {
+    text-align: center !important;
+  }
+  .section-3 .desktop i {
+    font-size: 8vmin;
+  }
+  .section-4 .carousel-item {
+    padding-left: 0.6rem;
+  }
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+}
+
+/* screen size 375px */
+
+@media only screen and (max-width: 375px) {
+  .section-4 .card {
+    width: 18em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section-4 .carousel-inner {
+    margin-left: -4vmin;
+  }
+}
+@media (min-width: 300px) {
+  .available1 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 600px) {
+  .available1 { grid-template-columns: repeat(3, 1fr); }
+}
+@media (min-width: 1000px) {
+  .available1{ 
+    grid-template-columns: repeat(4, 1fr);
+   }
+}
+
+/* 1st pref responsive */
+
+@media(min-width:300px){
+.available1 {
+  position: relative;
+/* width: 231px;
+  height: 334px; */
+left: 0px;
+top: 0px;
+flex-grow: 1;
+
+transition: transform 0.5s;
+z-index: 5;
+display: grid;
+column-gap: 18px;
+/* grid-template-columns: 250px 250px 250px 250px; */
+row-gap: 20px;
+padding-left: 20px;
+padding-right: 20px;
+}
+}
+
+/* .available1 li {
+list-style: none;
+} */
+@media(min-width:300px){
+.card {
+position: relative;
+width: 160px;
+height: 250px;
+background: #ffffff;
+box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.25);
+border-radius: 10px 10px 10px 10px;
+transition: transform 0.5s;
+}
+}
+@media(min-width:300px){
+.available1 h2 {
+position: absolute;
+width: flex;
+height: 22px;
+left: 10px;
+top: 170px;
+font-family: "Judson";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+
+color: #000000;
+}}
+
+@media(min-width:300px){
+.available1 p {
+position: absolute;
+width: flex;
+height: 27px;
+left: 10px;
+top: 200px;
+
+font-family: "Judson";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+color: #787878;
+}}
+
+@media(min-width:300px){
+.card img {
+position: absolute;
+width: 160px;
+height: 120px;
+/* background: url(images/bamboo.jpg); */
+filter: drop-shadow(6px 6px 25px rgba(0, 0, 0, 0.25));
+border-radius: 10px 10px 0px 0px;
+}}
+
+@media(min-width:300px){
+.ellipse {
+position: relative;
+width: 60px;
+height: 60px;
+left: 50px;
+top: 90px;
+border-radius: 50px;
+background: #ffffff;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transition: transform 0.5s;
+}}
+.ellipse img {
+position: absolute;
+width: 60px;
+height: 60px;
+background: none;
+left: 0px;
+top: 0px;
+}
+
+/* 2nd preference responsive */
+
+@media(min-width:300px){
+.available1 {
+  position: relative;
+/* width: 231px;
+  height: 334px; */
+left: 0px;
+top: 0px;
+flex-grow: 1;
+
+transition: transform 0.5s;
+z-index: 5;
+display: grid;
+column-gap: 18px;
+/* grid-template-columns: 250px 250px 250px 250px; */
+row-gap: 20px;
+padding-left: 20px;
+padding-right: 20px;
+}
+}
+
+/* .available1 li {
+list-style: none;
+} */
+@media(min-width:300px){
+.card {
+position: relative;
+width: 160px;
+height: 250px;
+background: #ffffff;
+box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.25);
+border-radius: 10px 10px 10px 10px;
+transition: transform 0.5s;
+}
+}
+@media(min-width:300px){
+.available1 h2 {
+position: absolute;
+width: flex;
+height: 22px;
+left: 10px;
+top: 170px;
+font-family: "Judson";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+
+color: #000000;
+}}
+
+@media(min-width:300px){
+.available1 p {
+position: absolute;
+width: flex;
+height: 27px;
+left: 10px;
+top: 200px;
+
+font-family: "Judson";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+color: #787878;
+}}
+
+@media(min-width:300px){
+.card img {
+position: absolute;
+width: 160px;
+height: 120px;
+/* background: url(images/bamboo.jpg); */
+filter: drop-shadow(6px 6px 25px rgba(0, 0, 0, 0.25));
+border-radius: 10px 10px 0px 0px;
+}}
+
+@media(min-width:300px){
+.ellipse {
+position: relative;
+width: 60px;
+height: 60px;
+left: 50px;
+top: 90px;
+border-radius: 50px;
+background: #ffffff;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transition: transform 0.5s;
+}}
+.ellipse img {
+position: absolute;
+width: 60px;
+height: 60px;
+background: none;
+left: 0px;
+top: 0px;
+}
+
+
+/* 2nd preference responsive */
+
+@media(min-width:1440px){
+.available1 {
+  position: relative;
+/* width: 231px;
+  height: 334px; */
+left: 0px;
+top: 0px;
+flex-grow: 1;
+
+transition: transform 0.5s;
+z-index: 5;
+display: grid;
+column-gap: 80px;
+/* grid-template-columns: 250px 250px 250px 250px; */
+row-gap: 80px;
+padding-left: 50px;
+
+
+}}
+
+@media(min-width:1440px){
+.card {
+position: relative;
+width: 231px;
+height: 334px;
+background: #ffffff;
+box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.25);
+border-radius: 10px 10px 10px 10px;
+transition: transform 0.5s;
+}}
+
+@media(min-width:1440px){
+.available1 h2 {
+position: absolute;
+width: flex;
+height: 22px;
+left: 10px;
+top: 240px;
+font-family: "Judson";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+
+color: #000000;
+}}
+
+@media(min-width:1440px){
+.available1 p {
+position: absolute;
+width: flex;
+height: 27px;
+left: 10px;
+top: 280px;
+
+font-family: "Judson";
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #787878;
+}}
+
+@media(min-width:1440px){
+.card img {
+position: absolute;
+width: 231px;
+height: 190px;
+/* background: url(images/bamboo.jpg); */
+filter: drop-shadow(6px 6px 25px rgba(0, 0, 0, 0.25));
+border-radius: 10px 10px 0px 0px;
+}}
+
+@media(min-width:1440px){
+.ellipse {
+position: relative;
+width: 81px;
+height: 80px;
+left: 75px;
+top: 150px;
+border-radius: 50px;
+background: #ffffff;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transition: transform 0.5s;
+}}
+
+@media(min-width:1440px){
+.ellipse img {
+position: absolute;
+width: 81px;
+height: 80px;
+background: none;
+left: 0px;
+top: 0px;
+}}
+
